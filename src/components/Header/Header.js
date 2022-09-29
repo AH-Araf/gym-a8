@@ -8,7 +8,7 @@ const Header = () => {
         <div className='container'>
             <div className='Header'>
                 <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
-                <h2><i><span className='color'> SUPER</span> CLUB GYM </i></h2>
+                <h2><i><span className='color'> READY</span> GYM </i></h2>
             </div>
             <p><b>Select your exercise now. </b></p>   
         </div>

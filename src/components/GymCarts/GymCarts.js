@@ -6,28 +6,28 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const GymCarts = (props) => {
     const {gymCart} = props;
-    // const {breakCart} = props;
+    
 
     let totalTime = 0;
-    // let gymCarts = 0;
+    
     for(const a of gymCart){
         totalTime = totalTime + a.time;
         
     } 
     const notify = () => {
-        toast('Your Activity Completed. This is React Toast')
+        toast('Your Activity Completed.')
     }
 
     return (
         <div className='gym-cart'>
             <div className='details'>
-                <img src="images/araf.png" alt="" />
-                <h4 className='name'>Md. Arafat Hossain</h4>
+                <img src="images/akil.jpg" alt="" />
+                <h4 className='name'>Rahyan Shamsi Akil</h4>
             </div>
 
             <div className='align'>
                 <div className='box'>
-                    <h3>68</h3>
+                    <h3>66</h3>
                     <p>Weight</p>
                 </div>
                 <div className='box'>
